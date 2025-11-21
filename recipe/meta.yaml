@@ -1,5 +1,5 @@
 {% set name = "randonneur" %}
-{% set version = "0.7" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b0f8632e04906196ca5986b2491b09e2d6ea2fd07724baf624c729687552a9c0
+  sha256: ce26baeedcdd82d0bf043857bc207c28336b9b0f2b061e3d3282f069114210c5
 
 build:
   noarch: python
